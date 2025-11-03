@@ -1,5 +1,6 @@
 <script>
     import { onMount } from "svelte";
+	import '../styles/layout.css'
 	let mode = 'focus'; // focus, short, long
 
 	let setF, setL, setS, bar;
@@ -141,7 +142,6 @@
 		}, 1000);
 	};
 </script>
-
 <div id="mainDiv">
     <h1 id="title">POMO-ZRL</h1>
 	<div id="Clock">
